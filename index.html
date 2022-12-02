@@ -8,6 +8,50 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="waluki" class="calculator-grid">
+        <form name="calculator" action="" method="dialog">
+       
+        <input type="textfield" name="letters" value="" autocomplete="off" readonly>
+        <br>
+        <input type="display" name="result" value="" autocomplete="off" readonly>
+        <br>
+        
+    
+    <input type="reset" value="DEL" class="orange"></input>
+    <input type="submit" value="⇐" class=" orange" onclick="document.calculator.result.value=document.calculator.result.value.toString().slice(0,-2)   ; document.calculator.letters.value=document.calculator.letters.value.toString().slice(0,-1)"></input>
+    <input type="submit" id="space" value= "SPACE"  class="orange" onclick="document.calculator.letters.value+=' '"></input>
+    <input type="submit" id="igual" name= "data-number" value="=" onclick=" document.calculator.result.value=eval(document.calculator.result.value)"></input>
+    <br>
+    <button name= "data-number" class="gray" value="5" onclick="document.calculator.result.value+='+1'   ; document.calculator.letters.value+='α'" >ה</button>
+    <button name= "data-number" class="gray" value="4" onclick="document.calculator.result.value+='+2'   ; document.calculator.letters.value+='β'">ד</button>
+    <button name= "data-number" class="gray" value="3" onclick="document.calculator.result.value+='+3'   ; document.calculator.letters.value+='γ'">ג</button>
+    <button name= "data-number" class="gray" value="2" onclick="document.calculator.result.value+='+4'   ; document.calculator.letters.value+='δ'">ב</button>
+    <button name= "data-number" class="gray" value="1" onclick="document.calculator.result.value+='+5'   ; document.calculator.letters.value+='ε'">א</button>
+    <br>
+    <button name= "data-number" class="gray" value="10" onclick="document.calculator.result.value+='+7' ; document.calculator.letters.value+='ζ'">י</button>
+    <button name= "data-number" class="gray" value="9" onclick="document.calculator.result.value+='+8'   ; document.calculator.letters.value+='η'">ט</button>
+    <button name= "data-number" class="gray" value="8" onclick="document.calculator.result.value+='+9'   ; document.calculator.letters.value+='θ'">ח</button>
+    <button name= "data-number" class="gray" value="7" onclick="document.calculator.result.value+='+10'   ; document.calculator.letters.value+='ι'">ז</button>
+    <button name= "data-number" class="gray" value="6" onclick="document.calculator.result.value+='+20'   ; document.calculator.letters.value+='κ'">ו</button>
+    <br>
+    <button name= "data-number" class="gray" value="13" onclick="document.calculator.result.value+='+30' ; document.calculator.letters.value+='λ'">ם</button>
+    <button name= "data-number" class="gray" value="13" onclick="document.calculator.result.value+='+40' ; document.calculator.letters.value+='μ'">מ</button>
+    <button name= "data-number" class="gray" value="12" onclick="document.calculator.result.value+='+50' ; document.calculator.letters.value+='ν'">ל</button>
+    <button name= "data-number" class="gray" value="11" onclick="document.calculator.result.value+='+60' ; document.calculator.letters.value+='ξ'">ך</button>
+    <button name= "data-number" class="gray" value="11" onclick="document.calculator.result.value+='+70' ; document.calculator.letters.value+='ο'">כ</button>
+    <br>
+    <button name= "data-number" class="gray" value="17" onclick="document.calculator.result.value+='+80' ; document.calculator.letters.value+='π'">פ</button>
+    <button name= "data-number" class="gray" value="16" onclick="document.calculator.result.value+='+100' ; document.calculator.letters.value+='ρ'">ע</button>
+    <button name= "data-number" class="gray" value="15" onclick="document.calculator.result.value+='+200' ; document.calculator.letters.value+='σ'">ס</button>
+    <button name= "data-number" class="gray" value="14" onclick="document.calculator.result.value+='+300' ; document.calculator.letters.value+='τ'">ן</button>
+    <button name= "data-number" class="gray" value="14" onclick="document.calculator.result.value+='+400' ; document.calculator.letters.value+='υ'">נ</button>
+    <br>
+    <button name= "data-number" class="gray" value="20" onclick="document.calculator.result.value+='+500' ; document.calculator.letters.value+='φ'">ר</button>
+    <button name= "data-number" class="gray" value="19" onclick="document.calculator.result.value+='+600' ; document.calculator.letters.value+='χ'">ק</button>
+    <button name= "data-number" class="gray" value="18" onclick="document.calculator.result.value+='+700'  ; document.calculator.letters.value+='ψ'">ץ</button>
+    <button name= "data-number" class="gray" value="18" onclick="document.calculator.result.value+='+800'  ; document.calculator.letters.value+='ω'">צ</button>
+   
+    
     
 </body>
 </html>
